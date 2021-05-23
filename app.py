@@ -22,7 +22,7 @@ model = load_model('extra_tree_model')
 
 
 st.title('🍷🍇🍷Clasificador de vino🍷🍇🍷')
-st.write('Esta es una aplicación web para clasificar la calidad de su vino.')
+st.write('🍷Esta es una aplicación web para clasificar la calidad de su vino.🍷')
 
 fixed_acidity = st.sidebar.slider(label = 'Acidez fija', min_value = 4.0,
                           max_value = 16.0 ,
