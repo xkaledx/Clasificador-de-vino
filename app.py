@@ -27,7 +27,7 @@ st.write('Esta es una aplicación web para clasificar la calidad de su vino en f
          valor de cada característica. Después de eso, haga clic en el botón Predecir en la parte inferior para\
          ver la predicción del clasificador.')
 
-Acidez_fija = st.sidebar.slider(label = 'Acidez fija', min_value = 4.0,
+fixed_acidity = st.sidebar.slider(label = 'Acidez fija', min_value = 4.0,
                           max_value = 16.0 ,
                           value = 10.0,
                           step = 0.1)
