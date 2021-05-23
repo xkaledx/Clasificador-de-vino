@@ -91,7 +91,7 @@ features_df  = pd.DataFrame([features])
 
 st.table(features_df)  
 
-if st.button('Predict'):
+if st.button('🔮Predecir🔮'):
     
     prediction = predict_quality(model, features_df)
     
