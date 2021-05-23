@@ -21,11 +21,8 @@ def predict_quality(model, df):
 model = load_model('extra_tree_model')
 
 
-st.title('Modelo clasificador de vino')
-st.write('Esta es una aplicación web para clasificar la calidad de su vino en función de\
-         varias funciones que puede ver en la barra lateral. Por favor, ajuste el\
-         valor de cada característica. Después de eso, haga clic en el botón Predecir en la parte inferior para\
-         ver la predicción del clasificador.')
+st.title('Clasificador de vino')
+st.write('Esta es una aplicación web para clasificar la calidad de su vino.')
 
 fixed_acidity = st.sidebar.slider(label = 'Acidez fija', min_value = 4.0,
                           max_value = 16.0 ,
