@@ -21,7 +21,7 @@ def predict_quality(model, df):
 model = load_model('extra_tree_model')
 
 
-st.title('Modelo de clasificador de vino')
+st.title('Modelo clasificador de vino')
 st.write('Esta es una aplicación web para clasificar la calidad de su vino en función de\
          varias funciones que puede ver en la barra lateral. Por favor, ajuste el\
          valor de cada característica. Después de eso, haga clic en el botón Predecir en la parte inferior para\
