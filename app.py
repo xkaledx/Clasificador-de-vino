@@ -95,4 +95,4 @@ if st.button('🔮Predecir🔮'):
     
     prediction = predict_quality(model, features_df)
     
-    st.write(' Based on feature values, your wine quality is '+ str(prediction))
+    st.write(' Según los valores, la calidad de su vino es: '+ str(prediction))
